@@ -25,7 +25,13 @@
     "url": "https://github.com/orangain/tsmv/issues"
   },
   "homepage": "https://github.com/orangain/tsmv#readme",
+  "dependencies": {
+    "commander": "^9.0.0"
+  },
   "devDependencies": {
+    "@types/node": "^16.11.21",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.4.0",
     "typescript": "^4.5.5"
   }
 }
