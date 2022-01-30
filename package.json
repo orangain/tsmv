@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "description": "CLI to rename TypeScript files with updating imports [Experimental]",
   "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "bin": {
+    "tsmv": "./lib/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -b"
+    "build": "tsc -b",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
