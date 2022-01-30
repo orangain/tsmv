@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/orangain/tsmv/issues"
   },
-  "homepage": "https://github.com/orangain/tsmv#readme"
+  "homepage": "https://github.com/orangain/tsmv#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
 }
